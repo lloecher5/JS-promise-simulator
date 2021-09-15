@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+header {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: lightblue;
+  padding: 30px;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.names {
+  display: block;
+  margin: auto;
+  list-style-type: none;
+  background-color: lightyellow;
+}
+
+table {
+  display: block;
+  margin: auto;
+}
+
+.y-sticky {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
